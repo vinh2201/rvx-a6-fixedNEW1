@@ -5,9 +5,18 @@ pluginManagement {
         mavenLocal()
         gradlePluginPortal()
         google()
+        maven { setUrl("https://jitpack.io") }
         maven {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/revanced/registry")
+            credentials {
+                username = providers.gradleProperty("gpr.user").getOrElse(System.getenv("GITHUB_ACTOR"))
+                password = providers.gradleProperty("gpr.key").getOrElse(System.getenv("GITHUB_TOKEN"))
+            }
+        }
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/inotia00/registry")
             credentials {
                 username = providers.gradleProperty("gpr.user").getOrElse(System.getenv("GITHUB_ACTOR"))
                 password = providers.gradleProperty("gpr.key").getOrElse(System.getenv("GITHUB_TOKEN"))
