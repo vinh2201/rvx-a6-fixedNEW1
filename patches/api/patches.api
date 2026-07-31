@@ -972,6 +972,10 @@ public final class app/revanced/patches/youtube/utils/fix/endscreensuggestedvide
 	public static final fun getEndScreenSuggestedVideoPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/youtube/utils/fix/litho/LithoBufferFixPatchKt {
+	public static final fun getLithoBufferFixPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/youtube/utils/fix/litho/LithoLayoutPatchKt {
 	public static final fun getLithoLayoutPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
