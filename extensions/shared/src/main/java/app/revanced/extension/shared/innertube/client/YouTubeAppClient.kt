@@ -104,9 +104,9 @@ object YouTubeAppClient {
      * in the `Additional details` section.
      */
     private val CLIENT_VERSION_ANDROID_VR = if (disableAV1())
-        "1.61.48" // Last version of minSdkVersion 24.
+        "1.65.10" // Last version of minSdkVersion 24.
     else
-        "1.65.09"
+        "1.54.20"
 
     /**
      * The device machine id for the Meta Quest 3, used to get opus codec with the Android VR client.
@@ -126,9 +126,9 @@ object YouTubeAppClient {
     else
         "34"
     private val BUILD_ID_ANDROID_VR = if (disableAV1())
-        "SQ3A.220605.009.A1"
-    else
         "UP1A.231005.007.A1"
+    else
+        "QQ3A.200805.001"
 
     private val USER_AGENT_ANDROID_VR = androidUserAgent(
         packageName = PACKAGE_NAME_ANDROID_VR,
