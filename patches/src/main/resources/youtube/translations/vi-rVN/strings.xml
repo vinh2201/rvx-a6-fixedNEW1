@@ -571,6 +571,7 @@ Các thay đổi bao gồm:
     <string name="revanced_disable_translucent_status_bar_summary_on">Thanh trạng thái không còn trong suốt.</string>
     <string name="revanced_disable_translucent_status_bar_summary_off">Thanh trạng thái có thể trong suốt hoặc không.</string>
     <string name="revanced_disable_translucent_status_bar_user_dialog_message">Trên một số ROM tùy chỉnh chạy Android 12+, bật tính năng này có thể làm cho thanh điều hướng hệ thống trở nên trong suốt.</string>
+    <string name="revanced_preference_screen_spoofing_title">🌟 !!!GIẢ MẠO PHIÊN BẢN!!!</string>
     <string name="revanced_spoof_app_version_title">Giả mạo phiên bản ứng dụng</string>
     <string name="revanced_spoof_app_version_summary_on">Phiên bản được giả mạo</string>
     <string name="revanced_spoof_app_version_summary_off">Phiên bản không được giả mạo</string>
