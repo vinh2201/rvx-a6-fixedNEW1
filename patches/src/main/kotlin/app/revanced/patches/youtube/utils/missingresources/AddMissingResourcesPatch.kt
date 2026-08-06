@@ -76,13 +76,14 @@ val addMissingResourcesPatch = resourcePatch(
                 // Modern Shorts top-bar Cairo icon names. Keep 17.34.36's
                 // original white legacy Shorts glyphs instead of the 20.xx look.
                 "yt_outline_search_cairo_black_24" to "@drawable/yt_outline_search_black_24",
+                "yt_outline_overflow_vertical_cairo_black_24" to "@drawable/yt_outline_overflow_vertical_black_24",
                 "yt_fill_chromecast_cairo_black_24" to "@drawable/yt_fill_chromecast_black_24",
                 "yt_outline_chromecast_cairo_black_24" to "@drawable/yt_outline_chromecast_black_24",
                 "yt_fill_compass_cairo_black_24" to "@drawable/yt_fill_compass_black_24",
                 "yt_outline_compass_cairo_black_24" to "@drawable/yt_outline_compass_black_24",
-                "yt_outline_gear_cairo_black_24" to "@drawable/yt_outline_overflow_vertical_black_24",
+                "yt_outline_gear_cairo_black_24" to "@drawable/yt_outline_gear_black_24",
                 "yt_outline_share_cairo_black_24" to "@drawable/yt_outline_share_black_24",
-                "yt_outline_arrow_left_cairo_black_24" to "@drawable/yt_outline_arrow_left_white_24",
+                "yt_outline_arrow_left_cairo_black_24" to "@drawable/yt_outline_arrow_left_black_24",
 
                 // Modern Shorts action button names requested by server-side layouts.
                 // YouTube 17.34.36 already has the original white shadowed buttons, so
@@ -113,6 +114,13 @@ val addMissingResourcesPatch = resourcePatch(
                 // Other small Shorts resources introduced after 17.34.36.
                 "ic_youtube_shorts_24_cairo" to "@drawable/ic_youtube_shorts_24",
                 "shorts_creation_secondary_rounded_button_background" to "@drawable/shorts_rounded_button_background",
+
+                // Comments
+                "yt_outline_thumb_up_cairo_black_24" to "@drawable/yt_outline_thumb_up_black_24",
+                "yt_outline_thumb_down_cairo_black_24" to "@drawable/yt_outline_thumb_down_black_24",
+                "yt_fill_thumb_up_cairo_black_24" to "@drawable/yt_fill_thumb_up_black_24",
+                "yt_fill_thumb_down_cairo_black_24" to "@drawable/yt_fill_thumb_down_black_24",
+                "yt_fill_spark_cairo_black_24" to "@drawable/yt_fill_sparkle_white_24",
 
             ).forEach { (key, value) ->
                 val newElement = document.createElement("drawable")
