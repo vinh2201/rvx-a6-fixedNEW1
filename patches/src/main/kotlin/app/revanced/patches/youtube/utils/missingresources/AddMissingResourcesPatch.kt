@@ -116,11 +116,59 @@ val addMissingResourcesPatch = resourcePatch(
                 "shorts_creation_secondary_rounded_button_background" to "@drawable/shorts_rounded_button_background",
 
                 // Comments
-                "yt_outline_thumb_up_cairo_black_24" to "@drawable/yt_outline_thumb_up_black_24",
-                "yt_outline_thumb_down_cairo_black_24" to "@drawable/yt_outline_thumb_down_black_24",
-                "yt_fill_thumb_up_cairo_black_24" to "@drawable/yt_fill_thumb_up_black_24",
-                "yt_fill_thumb_down_cairo_black_24" to "@drawable/yt_fill_thumb_down_black_24",
+                "yt_outline_thumb_up_cairo_black_18" to "@drawable/yt_outline_thumb_up_black_24",
+                "yt_outline_thumb_down_cairo_black_18" to "@drawable/yt_outline_thumb_down_black_24",
+                "yt_fill_thumb_up_cairo_black_18" to "@drawable/yt_fill_thumb_up_black_24",
+                "yt_fill_thumb_down_cairo_black_18" to "@drawable/yt_fill_thumb_down_black_24",
                 "yt_fill_spark_cairo_black_24" to "@drawable/yt_fill_sparkle_white_24",
+
+
+                // LEGACY OLD FROM 17.34.36.
+                // Shorts player.
+                "ic_right_like_off_shadowed" to "@drawable/ic_right_like_off_32c",
+                "ic_right_like_on_shadowed" to "@drawable/ic_right_like_on_32c",
+                "ic_right_dislike_off_shadowed" to "@drawable/ic_right_dislike_off_32c",
+                "ic_right_dislike_on_shadowed" to "@drawable/ic_right_dislike_on_32c",
+                "ic_right_comment_shadowed" to "@drawable/ic_right_comment_32c",
+                "ic_right_share_shadowed" to "@drawable/ic_right_share_32c",
+                "ic_remix_filled_white_shadowed" to "@drawable/ic_remix_filled_white_24",
+
+                // Comments.
+                "yt_outline_thumb_up_black_18" to "@drawable/yt_outline_thumb_up_black_24",
+                "yt_outline_thumb_down_black_18" to "@drawable/yt_outline_thumb_down_black_24",
+                "yt_fill_thumb_up_black_18" to "@drawable/yt_fill_thumb_up_black_24",
+                "yt_fill_thumb_down_black_18" to "@drawable/yt_fill_thumb_down_black_24",
+                "yt_fill_spark_black_24" to "@drawable/yt_fill_sparkle_white_24",
+
+
+                // FALLBACK IF NOT APPLIED CAUSE RESOURCES NAMES NOT TRUE
+                // Server-side Cairo navigation icons.
+                "yt_fill_home_black_24_cairo" to "@drawable/yt_fill_home_black_24",
+                "yt_outline_home_black_24_cairo" to "@drawable/yt_outline_home_black_24",
+                "yt_fill_subscriptions_black_24_cairo" to "@drawable/yt_fill_subscriptions_black_24",
+                "yt_outline_subscriptions_black_24_cairo" to "@drawable/yt_outline_subscriptions_black_24",
+                "yt_fill_youtube_shorts_black_24_cairo" to "@drawable/yt_fill_youtube_shorts_black_24",
+                "yt_outline_youtube_shorts_black_24_cairo" to "@drawable/yt_outline_youtube_shorts_black_24",
+                "yt_fill_bell_black_24_cairo" to "@drawable/yt_fill_bell_black_24",
+                "yt_outline_bell_black_24_cairo" to "@drawable/yt_outline_bell_black_24",
+
+                // Modern Shorts top-bar Cairo icon names.
+                "yt_outline_search_black_24_cairo" to "@drawable/yt_outline_search_black_24",
+                "yt_outline_overflow_vertical_black_24_cairo" to "@drawable/yt_outline_overflow_vertical_black_24",
+                "yt_fill_chromecast_black_24_cairo" to "@drawable/yt_fill_chromecast_black_24",
+                "yt_outline_chromecast_black_24_cairo" to "@drawable/yt_outline_chromecast_black_24",
+                "yt_fill_compass_black_24_cairo" to "@drawable/yt_fill_compass_black_24",
+                "yt_outline_compass_black_24_cairo" to "@drawable/yt_outline_compass_black_24",
+                "yt_outline_gear_black_24_cairo" to "@drawable/yt_outline_gear_black_24",
+                "yt_outline_share_black_24_cairo" to "@drawable/yt_outline_share_black_24",
+                "yt_outline_arrow_left_black_24_cairo" to "@drawable/yt_outline_arrow_left_black_24",
+
+                // Comments
+                "yt_outline_thumb_up_black_18_cairo" to "@drawable/yt_outline_thumb_up_black_24",
+                "yt_outline_thumb_down_black_18_cairo" to "@drawable/yt_outline_thumb_down_black_24",
+                "yt_fill_thumb_up_black_18_cairo" to "@drawable/yt_fill_thumb_up_black_24",
+                "yt_fill_thumb_down_black_18_cairo" to "@drawable/yt_fill_thumb_down_black_24",
+                "yt_fill_spark_black_24_cairo" to "@drawable/yt_fill_sparkle_white_24",
 
             ).forEach { (key, value) ->
                 val newElement = document.createElement("drawable")
