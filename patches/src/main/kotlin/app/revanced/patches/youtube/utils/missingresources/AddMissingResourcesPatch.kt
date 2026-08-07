@@ -140,36 +140,6 @@ val addMissingResourcesPatch = resourcePatch(
                 "yt_fill_thumb_down_black_18" to "@drawable/yt_fill_thumb_down_black_24",
                 "yt_fill_spark_black_24" to "@drawable/yt_fill_sparkle_white_24",
 
-
-                // FALLBACK IF NOT APPLIED CAUSE RESOURCES NAMES NOT TRUE
-                // Server-side Cairo navigation icons.
-                "yt_fill_home_black_24_cairo" to "@drawable/yt_fill_home_black_24",
-                "yt_outline_home_black_24_cairo" to "@drawable/yt_outline_home_black_24",
-                "yt_fill_subscriptions_black_24_cairo" to "@drawable/yt_fill_subscriptions_black_24",
-                "yt_outline_subscriptions_black_24_cairo" to "@drawable/yt_outline_subscriptions_black_24",
-                "yt_fill_youtube_shorts_black_24_cairo" to "@drawable/yt_fill_youtube_shorts_black_24",
-                "yt_outline_youtube_shorts_black_24_cairo" to "@drawable/yt_outline_youtube_shorts_black_24",
-                "yt_fill_bell_black_24_cairo" to "@drawable/yt_fill_bell_black_24",
-                "yt_outline_bell_black_24_cairo" to "@drawable/yt_outline_bell_black_24",
-
-                // Modern Shorts top-bar Cairo icon names.
-                "yt_outline_search_black_24_cairo" to "@drawable/yt_outline_search_black_24",
-                "yt_outline_overflow_vertical_black_24_cairo" to "@drawable/yt_outline_overflow_vertical_black_24",
-                "yt_fill_chromecast_black_24_cairo" to "@drawable/yt_fill_chromecast_black_24",
-                "yt_outline_chromecast_black_24_cairo" to "@drawable/yt_outline_chromecast_black_24",
-                "yt_fill_compass_black_24_cairo" to "@drawable/yt_fill_compass_black_24",
-                "yt_outline_compass_black_24_cairo" to "@drawable/yt_outline_compass_black_24",
-                "yt_outline_gear_black_24_cairo" to "@drawable/yt_outline_gear_black_24",
-                "yt_outline_share_black_24_cairo" to "@drawable/yt_outline_share_black_24",
-                "yt_outline_arrow_left_black_24_cairo" to "@drawable/yt_outline_arrow_left_black_24",
-
-                // Comments
-                "yt_outline_thumb_up_black_18_cairo" to "@drawable/yt_outline_thumb_up_black_24",
-                "yt_outline_thumb_down_black_18_cairo" to "@drawable/yt_outline_thumb_down_black_24",
-                "yt_fill_thumb_up_black_18_cairo" to "@drawable/yt_fill_thumb_up_black_24",
-                "yt_fill_thumb_down_black_18_cairo" to "@drawable/yt_fill_thumb_down_black_24",
-                "yt_fill_spark_black_24_cairo" to "@drawable/yt_fill_sparkle_white_24",
-
             ).forEach { (key, value) ->
                 val newElement = document.createElement("drawable")
                 newElement.setAttribute("name", key)
@@ -185,37 +155,6 @@ val addMissingResourcesPatch = resourcePatch(
         copyResources(
             "addmissingresources",
             ResourceGroup("drawable", "ic_waveform_elements.xml")
-        )
-
-        copyResources(
-            "addmissingresources",
-            ResourceGroup("drawable", "rvx_legacy_nav_home_fill_24.xml")
-        )
-
-        copyResources(
-            "addmissingresources",
-            ResourceGroup("drawable", "rvx_legacy_nav_home_outline_24.xml")
-        )
-
-        copyResources(
-            "addmissingresources",
-            ResourceGroup("drawable", "rvx_legacy_nav_shorts_fill_24.xml")
-        )
-
-        copyResources(
-            "addmissingresources",
-            ResourceGroup("drawable", "rvx_legacy_nav_shorts_outline_24.xml")
-        )
-
-        copyResources(
-            "addmissingresources",
-            ResourceGroup("drawable", "rvx_legacy_nav_subscriptions_fill_24.xml")
-        )
-
-        copyResources(
-            "addmissingresources",
-            ResourceGroup("drawable", "rvx_legacy_nav_subscriptions_outline_24.xml")
-        )
 
         // endregion
 
