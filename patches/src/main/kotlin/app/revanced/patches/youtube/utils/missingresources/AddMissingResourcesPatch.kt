@@ -187,6 +187,36 @@ val addMissingResourcesPatch = resourcePatch(
             ResourceGroup("drawable", "ic_waveform_elements.xml")
         )
 
+        copyResources(
+            "addmissingresources",
+            ResourceGroup("drawable", "rvx_legacy_nav_home_fill_24.xml")
+        )
+
+        copyResources(
+            "addmissingresources",
+            ResourceGroup("drawable", "rvx_legacy_nav_home_outline_24.xml")
+        )
+
+        copyResources(
+            "addmissingresources",
+            ResourceGroup("drawable", "rvx_legacy_nav_shorts_fill_24.xml")
+        )
+
+        copyResources(
+            "addmissingresources",
+            ResourceGroup("drawable", "rvx_legacy_nav_shorts_outline_24.xml")
+        )
+
+        copyResources(
+            "addmissingresources",
+            ResourceGroup("drawable", "rvx_legacy_nav_subscriptions_fill_24.xml")
+        )
+
+        copyResources(
+            "addmissingresources",
+            ResourceGroup("drawable", "rvx_legacy_nav_subscriptions_outline_24.xml")
+        )
+
         // endregion
 
         addPreference(ADD_MISSING_RESOURCES)
